@@ -1,0 +1,9 @@
+.list {
+  margin: 40px 80px;
+  font-style: italic;
+}
+
+.item:hover,
+.item:focus {
+  color: rgb(149, 1, 1);
+}
