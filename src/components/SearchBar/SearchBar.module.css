@@ -1,0 +1,27 @@
+form {
+  margin: 80px 80px;
+  display: flex;
+  gap: 20px;
+}
+
+input {
+  width: 300px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+button {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: whitesmoke;
+  background-color: rgb(155, 1, 1);
+  font-size: 18px;
+  transition: all 200ms ease-in;
+}
+
+button:hover,
+button:focus {
+  background-color: rgb(203, 28, 28);
+}

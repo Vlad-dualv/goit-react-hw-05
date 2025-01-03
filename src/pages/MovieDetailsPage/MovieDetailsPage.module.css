@@ -48,3 +48,8 @@ li {
   border-bottom: 1px solid grey;
   margin-left: 40px;
 }
+
+.item:hover,
+.item:focus {
+  color: rgb(149, 1, 1);
+}

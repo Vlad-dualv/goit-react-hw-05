@@ -28,7 +28,9 @@ export async function getMovieDetails(movieId) {
 }
 
 export async function getMoviesWithSearch(search) {
-  const response = await myAxios.get(`search/movie?${params}&query=${search}`);
+  const response = await myAxios.get(`search/movie?&query=${search}`, {
+    params,
+  });
   return response.data;
 }
 
